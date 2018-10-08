@@ -1,0 +1,22 @@
+{
+  "name": "vueonrails",
+  "version": "1.0.0",
+  "description": "a Vue on Rails javascript helper",
+  "main": "vueonrails.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "rails",
+    "webpacker",
+    "helper",
+    "vueonrails",
+    "vue-on-rails"
+  ],
+  "author": "Bryan Lim",
+  "license": "MIT",
+  "email": "ytbryan@gmail.com",
+  "url": "http://vueonrails.com",
+  "repository": "http://github.com/ytbryan/vueonrails-helper"
+}
