@@ -1,11 +1,13 @@
 /*!
 * vueonrails.js
-* v1.0.0
+* v1.0.1
 * (c) Bryan Lim; MIT License
 */
 
 export function erb(variable){
-  return document.getElementById("vueonrails-" + variable).getAttribute("data-" + variable)
+  var element = document.getElementById("vueonrails-" + variable)
+  if(element == null){ return "" }
+  return JSON.parse(element.getAttribute("data-" + variable))
 }
   
 export function isView(pageClassString){
