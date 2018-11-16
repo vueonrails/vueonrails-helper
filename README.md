@@ -7,7 +7,7 @@ It enables Specific-page Vue, passing data into Vue component and other utilitie
 ## Usage
 
 ```javascript
-  require('vueonrails')
+require('vueonrails')
 ```
 
 ```javascript
